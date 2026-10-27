@@ -30,9 +30,13 @@
 /* ==========================================================
    BASIC SETTINGS
    ========================================================== */
-*, *::before, *::after { box-sizing: border-box; }
+*, *::before, *::after { 
+  box-sizing: border-box; 
+}
 
-html { scroll-behavior: smooth; }
+html { 
+  scroll-behavior: smooth; 
+}
 
 body {
   margin: 0;
@@ -90,7 +94,9 @@ a:focus-visible {
 }
 
 /* keeps the flower and the C together on one line */
-.cap { white-space: nowrap; }
+.cap { 
+  white-space: nowrap; 
+}
 
 /* the flower is part of the line (not floating), so the flower
    and "CSS Zen Garden" are centered together as one group */
@@ -185,7 +191,9 @@ a:focus-visible {
   transition: transform 0.45s cubic-bezier(0.3, 1.6, 0.5, 1);
 }
 
-.fancy-text:hover::after { transform: scale(1) rotate(0deg); }
+.fancy-text:hover::after { 
+  transform: scale(1) rotate(0deg); 
+}
 
 /* ==========================================================
    LAYOUT: main part on the left, side column on the right
@@ -265,7 +273,9 @@ a:focus-visible {
   margin: 0 0 1.1rem;
 }
 
-.paper p:last-child { margin-bottom: 0; }
+.paper p:last-child { 
+  margin-bottom: 0; 
+}
 
 /* ==========================================================
    4. SIDEBAR
@@ -316,8 +326,13 @@ a:focus-visible {
   border-radius: 2px;
 }
 
-.designs li { margin-bottom: 0.5rem; }
-.designs li:last-child { margin-bottom: 0; }
+.designs li { 
+  margin-bottom: 0.5rem; 
+}
+
+.designs li:last-child { 
+  margin-bottom: 0; 
+}
 
 .designs a {
   position: relative;
